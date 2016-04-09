@@ -1,0 +1,121 @@
+#main-container {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+    background-color: white;
+    max-width: 1000px;
+    padding-bottom: 10px;
+    min-height: 76%;
+}
+
+.affix + .container-fluid {
+    padding-top: 50px;
+}
+
+#logo{
+    height:140px; 
+    background-color:#fff;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#logo-text{
+    float: right;
+    margin-top: 65px;
+    color: dimgrey;
+}
+
+#obrazek{
+    color: #ccc;
+}
+
+#error{
+    vertical-align: middle;
+    text-align: center;
+    color: dimgrey;
+    font-size: 32px;
+}
+
+#error h1{
+    font-size: 200px;
+}
+
+.alert-danger {
+    text-align: center;
+}
+
+.alert-success {
+    text-align: center;
+}
+
+.article-thumbnail {
+    width: 100%;
+    max-height:200px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    content: "";
+    position:relative;
+
+}
+
+.article-thumbnail:before {
+    content:'';
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:50%;
+    top:185px;
+    /*background:linear-gradient(transparent, transparent 100px, black);*/
+}
+
+.panel-heading{
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 20px;
+}
+
+.float-right{
+    float: right;
+}
+
+.device-text-align {
+    text-align: center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .device-text-align {
+        text-align: justify;
+    }
+}
+
+.article-author {
+    font-size:20px;
+}
+
+.article-date {
+    font-size:20px;
+    color: dimgray;
+}
+
+.table-separator {
+    border-right: 1px solid #ddd;
+}
+
+#nav.affix + #main-container {
+    padding-top: 40px;
+}
+
+.info-message{
+    color: dimgrey;
+    font-size: 18px;
+}
+
+.footer{
+    color: #808080;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
